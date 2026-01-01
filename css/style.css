@@ -332,6 +332,10 @@ body {
 
 .aboutme-wrapper-description p {
   margin-bottom: 10px;
+  -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto; 
 }
 
 .content-services {
