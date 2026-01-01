@@ -3,7 +3,8 @@
 @font-face {
   font-family: Nunito;
   font-display: swap;
-  src: url("../fonts/Nunito-Bold.woff2") format("woff2"), url("../fonts/Nunito-Bold.woff") format("woff");
+  src: url("../fonts/Nunito-Bold.woff2") format("woff2"),
+    url("../fonts/Nunito-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -11,7 +12,8 @@
 @font-face {
   font-family: Nunito;
   font-display: swap;
-  src: url("../fonts/Nunito-Regular.woff2") format("woff2"), url("../fonts/Nunito-Regular.woff") format("woff");
+  src: url("../fonts/Nunito-Regular.woff2") format("woff2"),
+    url("../fonts/Nunito-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -19,7 +21,8 @@
 @font-face {
   font-family: Sen;
   font-display: swap;
-  src: url("../fonts/Sen-Bold.woff2") format("woff2"), url("../fonts/Sen-Bold.woff") format("woff");
+  src: url("../fonts/Sen-Bold.woff2") format("woff2"),
+    url("../fonts/Sen-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -27,7 +30,8 @@
 @font-face {
   font-family: RubikMonoOne;
   font-display: swap;
-  src: url("../fonts/RubikMonoOne-Regular.woff2") format("woff2"), url("../fonts/RubikMonoOne-Regular.woff") format("woff");
+  src: url("../fonts/RubikMonoOne-Regular.woff2") format("woff2"),
+    url("../fonts/RubikMonoOne-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -35,7 +39,8 @@
 @font-face {
   font-family: Sen;
   font-display: swap;
-  src: url("../fonts/Sen-Regular.woff2") format("woff2"), url("../fonts/Sen-Regular.woff") format("woff");
+  src: url("../fonts/Sen-Regular.woff2") format("woff2"),
+    url("../fonts/Sen-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -149,9 +154,9 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100vh;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100dvh;
 }
 
 .visitcard-footer {
@@ -171,7 +176,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .header-logo {
@@ -179,8 +184,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header-logo picture {
@@ -195,8 +200,16 @@ body {
   margin-left: 5px;
   font-size: 20px;
   font-family: RubikMonoOne, Arial, sans-serif;
-  background: -o-linear-gradient(183.6deg, rgba(255, 149, 2, 0.8) 45.94%, rgba(255, 184, 1, 0.8) 53.4%);
-  background: linear-gradient(266.4deg, rgba(255, 149, 2, 0.8) 45.94%, rgba(255, 184, 1, 0.8) 53.4%);
+  background: -o-linear-gradient(
+    183.6deg,
+    rgba(255, 149, 2, 0.8) 45.94%,
+    rgba(255, 184, 1, 0.8) 53.4%
+  );
+  background: linear-gradient(
+    266.4deg,
+    rgba(255, 149, 2, 0.8) 45.94%,
+    rgba(255, 184, 1, 0.8) 53.4%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -207,8 +220,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header-contacts .header-contacts-list {
@@ -216,7 +229,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .header-contacts li {
@@ -236,14 +249,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .anime p {
@@ -283,14 +296,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -332,16 +345,16 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .content-services-flexbox-item {
   -webkit-box-flex: 25%;
-      -ms-flex: 25%;
-          flex: 25%;
+  -ms-flex: 25%;
+  flex: 25%;
   max-width: 250px;
   margin: 25px;
   text-align: center;
@@ -360,8 +373,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .contactme {
@@ -396,10 +409,18 @@ body {
   color: black;
   border-radius: 40px;
   font-size: 20px;
-  background: -o-linear-gradient(149.6deg, rgba(255, 149, 2, 0.8) 25.94%, rgba(255, 184, 1, 0.8) 53.4%);
-  background: linear-gradient(300.4deg, rgba(255, 149, 2, 0.8) 25.94%, rgba(255, 184, 1, 0.8) 53.4%);
+  background: -o-linear-gradient(
+    149.6deg,
+    rgba(255, 149, 2, 0.8) 25.94%,
+    rgba(255, 184, 1, 0.8) 53.4%
+  );
+  background: linear-gradient(
+    300.4deg,
+    rgba(255, 149, 2, 0.8) 25.94%,
+    rgba(255, 184, 1, 0.8) 53.4%
+  );
   -webkit-box-shadow: 0px 3px 15px black;
-          box-shadow: 0px 3px 15px black;
+  box-shadow: 0px 3px 15px black;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -412,7 +433,7 @@ body {
 
 .contactme-wrapper button:active {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   outline: none;
 }
 
@@ -468,8 +489,16 @@ footer p {
 footer span {
   padding-bottom: 5px;
   font-family: RubikMonoOne, Arial, sans-serif;
-  background: -o-linear-gradient(183.6deg, rgba(255, 149, 2, 0.8) 45.94%, rgba(255, 184, 1, 0.8) 53.4%);
-  background: linear-gradient(266.4deg, rgba(255, 149, 2, 0.8) 45.94%, rgba(255, 184, 1, 0.8) 53.4%);
+  background: -o-linear-gradient(
+    183.6deg,
+    rgba(255, 149, 2, 0.8) 45.94%,
+    rgba(255, 184, 1, 0.8) 53.4%
+  );
+  background: linear-gradient(
+    266.4deg,
+    rgba(255, 149, 2, 0.8) 45.94%,
+    rgba(255, 184, 1, 0.8) 53.4%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -479,8 +508,8 @@ footer span {
   .aboutme .aboutme-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .aboutme .aboutme-wrapper-left {
@@ -499,8 +528,8 @@ footer span {
 
   .header-logo {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-bottom: 10px;
   }
 
@@ -515,11 +544,11 @@ footer span {
   .header .header-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .header .header-contacts-list {
@@ -527,13 +556,13 @@ footer span {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .header .header-contacts-item {
@@ -553,8 +582,8 @@ footer span {
   .aboutme .aboutme-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding: 30px;
   }
 
